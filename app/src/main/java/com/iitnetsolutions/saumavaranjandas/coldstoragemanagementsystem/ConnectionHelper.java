@@ -17,10 +17,10 @@ public class ConnectionHelper
     public Connection connectionclasss()
     {
         // Declaring Server ip, username, database name and password
-        ip = "mmatc1718.db.11833524.hostedresource.com";
-        db = "mmatc1718";
-        DBUserNameStr = "mmatc1718";
-        DBPasswordStr = "MADMADmad@1";
+        ip = "-----------------";
+        db = "---------";
+        DBUserNameStr = "-----";
+        DBPasswordStr = "-----";
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
