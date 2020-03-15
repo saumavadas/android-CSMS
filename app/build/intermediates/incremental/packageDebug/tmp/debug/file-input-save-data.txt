@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Feb 28 21:43:11 IST 2020
+0.baseType=DIRECTORY
+0.base=/Users/saumavaranjandas/AndroidStudioProjects/ColdStorageManagementSystem/app/build/intermediates/transforms/dexMerger/debug/17
+0.path=classes.dex
+0.set=DEX
+count=1

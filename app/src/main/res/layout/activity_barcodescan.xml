@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bondActivity">
+
+
+    <ScrollView android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/scan_barcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan BarCode*"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/edit_barcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/scan_barcode"
+                android:hint="BarCode"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/check_barcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Check and proceed Next"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/submit_form2mainform"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="List Draft's"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

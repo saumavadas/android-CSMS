@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="DraftListActivity">
+
+    <TextView
+        android:id="@+id/Draft_List_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Draft Bond List"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <ListView
+        android:id="@+id/LV_Bonds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:divider="@color/colorPrimary"
+
+        android:layout_below="@+id/Draft_List_Header">
+    </ListView>
+
+
+</RelativeLayout>

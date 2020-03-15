@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/saumavaranjandas/AndroidStudioProjects/ColdStorageManagementSystem/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/saumavaranjandas/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c56350ab04d7da7cefbd11ff3f764d4/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
